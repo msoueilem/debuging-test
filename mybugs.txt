@@ -1,0 +1,11 @@
+Debugging test bugs:
+1.Schema file
+2.Router get one 
+3.Next in middleware
+4.Count in getAll
+5.Movie released typo
+6.Movies typo in the service
+7.CORS DELETE ADDED
+8.Movies typo in service
+9.When we delete we redirect to home so when we go back to movies the list been fetched from the back end
+10. Pipe for released date
