@@ -1,0 +1,17 @@
+<h1>Movie {{movie.title}} <br/></h1>
+
+Full Plot: {{movie.fullplot}} <br/>
+Year: {{movie.year}} <br/>
+Runtime: {{movie.runtime}} <br/>
+Release Date: {{movie.released}} <br/>
+
+Cast:<br/>
+<ul>
+    <li *ngFor="let cast of movie.cast">
+        {{cast}}
+    </li>
+</ul>
+
+Language: {{movie.languages}} <br/>
+
+<button (click)="onDelete(movie._id)">Delete</button>

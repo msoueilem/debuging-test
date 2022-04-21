@@ -1,0 +1,8 @@
+The list of movies are:<br/>
+<ul>
+    <li *ngFor="let movie of movies">
+        <a routerLink="{{movie._id}}">{{movie.title}} - {{movie.year}}</a>
+    </li>
+</ul>
+
+<button (click)="previous()" [disabled]="isOffsetZero">Previous</button><button (click)="next()">Next</button>
