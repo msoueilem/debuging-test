@@ -24,7 +24,7 @@ export class MovieComponent implements OnInit {
 
   onDelete(movieId: string) {
     this.movieService.deleteMovie(movieId);
-    this.router.navigate(["movies"]);
+    this.router.navigate([""]);
   }
 
 }

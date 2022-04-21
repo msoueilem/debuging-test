@@ -1,12 +1,8 @@
 const mongoose= require("mongoose");
 
 const movieSchema= mongoose.Schema({
-    genres: {
-        type: [String]
-    },
-    runtime: {
-        type: Number,
-    },
+    genres: [String],
+    runtime: Number,
     cast: [String],
     title: String,
     fullplot: String,
